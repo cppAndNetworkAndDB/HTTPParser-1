@@ -8,6 +8,9 @@
 
 *.a
 
+Makefile
+MakeTest
+
 CMakeCache.txt
 CMakeFiles/
 *.cmake
