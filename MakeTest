@@ -1,0 +1,2 @@
+test:
+	g++ -Igtest/include -std=c++11 net/httpparser_unittest.cpp net/httpparser.cpp libgtest.a libgtest_main.a -lpthread -o bin/Debug/unittests

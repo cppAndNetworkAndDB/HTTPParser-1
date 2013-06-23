@@ -1,0 +1,17 @@
+*~ # No temp files
+
+*.html # Code::Blocks build logs are html
+
+*.cbp
+*.depend
+*.layout
+
+*.a
+
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+
+bin/
+obj/
+gtest/
