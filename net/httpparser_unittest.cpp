@@ -12,6 +12,8 @@ TEST(HTTPPaser, Parse) {
   net::HTTPParser parser;
   net::ParserState state = parser.Parse(request);
 
+  ASSERT_TRUE(state != net::ParserState::ERROR);
+
   EXPECT_EQ(state, net::ParserState::PARSED);
   EXPECT_EQ(net::RequestMethod::GET, parser.GetRequestMethod());
 
